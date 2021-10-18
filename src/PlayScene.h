@@ -30,23 +30,22 @@ private:
 	glm::vec2 m_mousePosition;
 
 	Crate* m_pCrate;
-	StormTrooper* m_pStormtrooper;
 	Background* m_pBG;
 
 	bool isLaunched;
-	float launchElevationAngle;
-	float launchSpeed;
-	float accelerationGravity;
+	float gravity;
 
 	int spaceCoolDownCounter;
 
 	float startingX;
 	float startingY;
 
-
+	glm::vec2 force;
+	glm::vec2 friction;
 	float slideHeight;
 	float slideWidth;
-
+	float mass;
+	float frictionConef;
 
 
 
