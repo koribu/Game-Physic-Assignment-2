@@ -5,7 +5,7 @@
 
 Background::Background()
 {
-	TextureManager::Instance().load("../Assets/textures/star-wars.jpg", "BG");
+	TextureManager::Instance().load("../Assets/textures/BG.jpg", "BG");
 
 	//auto size = TextureManager::Instance().getTextureSize("BG");
 	//setWidth(800);
